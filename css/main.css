@@ -1,0 +1,67 @@
+/* font-family: 'Lato', sans-serif;*/
+*{
+	font-family: 'Lato', sans-serif;
+}
+.first-section{
+	background-image: url(../img/bg.jpeg);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.first-section h1{
+	padding-top: 2em;
+	color: #FFF;
+	font-weight: 900;
+	font-size: 70px;
+}
+.line{
+	border-top: 3px solid white;
+}
+#showApp{
+	color: #FFF;
+	font-weight: 400;
+}
+.app{
+	padding: 2em 0;
+	color: #5A5A5A;
+}
+.second-section{
+	background-color: #FFF;
+	padding: 5em 0;
+}
+.title-second{
+	color: #D2527F;
+}
+.features{
+	padding: 0.8em;
+}
+.features:hover{
+	background-color: #F2F2F2;
+	cursor: pointer;
+}
+p{
+	padding: 0;
+	margin-bottom: 1em;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 28px;
+	color: #666;
+	margin-top: 1em;
+}
+.third-section{
+	background-color: #F2F2F2;
+	height: 100vh;
+}
+/* personalizando los botones de bootstrap*/
+.btn-default{
+	color: #FFF;
+	background-color: #D2527F;
+	border-color: #B4215D;
+}
+.btn-default:hover{
+	background-color: #C53A6D;
+	color: #FFF;
+}
+.btns{
+	padding-top: 5em;
+}
